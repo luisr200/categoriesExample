@@ -15,7 +15,7 @@ export class AppComponent implements OnInit{
   categoryLevel: CategoryLevel;
   categories: Category[];
   category: Category = new Category();
-  title = 'Categories App';
+  title = 'Categories App!';
   categoryNames: string[] = new Array();
   listFilter: string = '';
 
@@ -52,3 +52,4 @@ export class AppComponent implements OnInit{
     return cat.Keywords;
   }
 }
+
